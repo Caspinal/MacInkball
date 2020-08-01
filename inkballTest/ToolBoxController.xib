@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.Cocoa.XIB" version="3.0" toolsVersion="16097.2" targetRuntime="MacOSX.Cocoa" propertyAccessControl="none" useAutolayout="YES" customObjectInstantitationMethod="direct">
+    <dependencies>
+        <plugIn identifier="com.apple.InterfaceBuilder.CocoaPlugin" version="16097.2"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <objects>
+        <customObject id="-2" userLabel="File's Owner" customClass="ToolBoxController" customModule="inkballTest" customModuleProvider="target">
+            <connections>
+                <outlet property="colourHost" destination="nMb-bR-RtZ" id="7hx-KD-jyA"/>
+                <outlet property="view" destination="Hz6-mo-xeY" id="0bl-1N-x8E"/>
+            </connections>
+        </customObject>
+        <customObject id="-1" userLabel="First Responder" customClass="FirstResponder"/>
+        <customObject id="-3" userLabel="Application" customClass="NSObject"/>
+        <customView id="Hz6-mo-xeY">
+            <rect key="frame" x="0.0" y="0.0" width="301" height="397"/>
+            <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMinY="YES"/>
+            <subviews>
+                <customView misplaced="YES" translatesAutoresizingMaskIntoConstraints="NO" id="nMb-bR-RtZ">
+                    <rect key="frame" x="0.0" y="343" width="301" height="54"/>
+                </customView>
+                <comboBox verticalHuggingPriority="750" misplaced="YES" translatesAutoresizingMaskIntoConstraints="NO" id="Arg-py-xET">
+                    <rect key="frame" x="0.0" y="312" width="304" height="25"/>
+                    <constraints>
+                        <constraint firstAttribute="width" constant="96" id="JrF-YK-2jA"/>
+                    </constraints>
+                    <comboBoxCell key="cell" scrollable="YES" lineBreakMode="clipping" selectable="YES" editable="YES" sendsActionOnEndEditing="YES" borderStyle="bezel" drawsBackground="YES" completes="NO" numberOfVisibleItems="5" id="ZbM-TY-oPT">
+                        <font key="font" metaFont="system"/>
+                        <color key="textColor" name="controlTextColor" catalog="System" colorSpace="catalog"/>
+                        <color key="backgroundColor" name="textBackgroundColor" catalog="System" colorSpace="catalog"/>
+                        <objectValues>
+                            <string>Item 1</string>
+                            <string>Item 2</string>
+                            <string>Item 3</string>
+                        </objectValues>
+                    </comboBoxCell>
+                </comboBox>
+            </subviews>
+            <constraints>
+                <constraint firstAttribute="bottom" secondItem="nMb-bR-RtZ" secondAttribute="bottom" id="ICD-QQ-wJQ"/>
+                <constraint firstAttribute="trailing" secondItem="nMb-bR-RtZ" secondAttribute="trailing" id="KWg-a8-29j"/>
+                <constraint firstItem="Arg-py-xET" firstAttribute="top" secondItem="Hz6-mo-xeY" secondAttribute="top" constant="134" id="c2l-O4-8I7"/>
+                <constraint firstItem="nMb-bR-RtZ" firstAttribute="leading" secondItem="Hz6-mo-xeY" secondAttribute="leading" id="hLW-Ma-uK4"/>
+                <constraint firstItem="Arg-py-xET" firstAttribute="leading" secondItem="Hz6-mo-xeY" secondAttribute="leading" constant="9" id="olm-7b-r5r"/>
+                <constraint firstItem="nMb-bR-RtZ" firstAttribute="top" secondItem="Hz6-mo-xeY" secondAttribute="top" constant="343" id="tQ6-vr-QIp"/>
+            </constraints>
+            <point key="canvasLocation" x="50.5" y="216.5"/>
+        </customView>
+    </objects>
+</document>
