@@ -39,6 +39,7 @@
 		BF3EF56324D1FF7F00A9A85F /* MainWindowController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainWindowController.swift; sourceTree = "<group>"; };
 		BF6088B224CD978D00065D95 /* CustomComboCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomComboCell.swift; sourceTree = "<group>"; };
 		BF6088B424CDCC0900065D95 /* ColourView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ColourView.swift; sourceTree = "<group>"; };
+		BF6672EA24D63A4F00F1FFD8 /* README.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
 		BF66ADB624C9FBCC0098B501 /* inkballTest.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = inkballTest.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		BF66ADB924C9FBCC0098B501 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		BF66ADBF24C9FBCC0098B501 /* GameScene.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GameScene.swift; sourceTree = "<group>"; };
@@ -71,6 +72,7 @@
 		BF66ADAD24C9FBCC0098B501 = {
 			isa = PBXGroup;
 			children = (
+				BF6672EA24D63A4F00F1FFD8 /* README.md */,
 				BF66ADB824C9FBCC0098B501 /* inkballTest */,
 				BF66ADB724C9FBCC0098B501 /* Products */,
 			);
