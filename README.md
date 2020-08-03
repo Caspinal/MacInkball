@@ -9,6 +9,6 @@ The primary Input method uses the normalised position of a single touch and touc
 
 Traditional mouse input is to follow.
 
-Experiential switch joystick keyboard control is to be explored. 
+Experiential switch, joystick and keyboard control is to be explored. 
 
 A level editor is also included. 
